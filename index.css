@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    overflow-x: hidden;
+
+    font-family: "Montserrat", sans-serif;
+
+    background-color: #0F0F0F;
+}
+
+main#main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+.calculate-salary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.calculate-salary label {
+    color: #E94560;
+}
+
+.calculate {
+    background-color: #E94560;
+    
+    margin-top: 15px;
+    color: #E5E5CB;
+    font-weight: 700;
+
+    padding: 8px 23px;
+
+    border: 2px solid #E94560;
+    border-radius: 10px;
+
+    transition: .2s linear;
+
+    cursor: pointer;
+}
+
+.calculate:hover {
+    background-color: inherit;
+
+}
+
+input[type="number"] {
+    padding: 12px 25px;
+    
+    border-radius: 6px;
+
+    background-color: inherit;
+
+    border: 3px solid #E5E5CB;
+
+    color: #E5E5CB;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+}
+
+.result-subtitle {
+    color: #E5E5CB;
+}
+
+.result {
+    font-size: 24px;
+    color: #E94560;
+}
