@@ -85,5 +85,6 @@ input[type="number"]:focus {
 
 .result {
     font-size: 24px;
+    letter-spacing: 1.5px;
     color: #E94560;
 }
